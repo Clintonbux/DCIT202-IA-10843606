@@ -1,4 +1,4 @@
-iimport { StatusBar } from "expo-status-bar";
+import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
@@ -14,7 +14,7 @@ export default function App() {
     <View style={{ flex: 1 }}>
       <NavigationContainer>
         <MainNavigator.Navigator
-          screenOptions={{ headerShown: true ,  }}
+          screenOptions={{ headerShown:false ,  }}
           // initialRouteName=""
         >
           <MainNavigator.Screen name="Login" component={Login} />
