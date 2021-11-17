@@ -25,8 +25,8 @@ export default function Login(params) {
         }}
         source={{uri:'https://images.unsplash.com/photo-1608541737042-87a12275d313?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=861&q=80'}}
       />
-      <Text style={{ fontSize: 30, color: "grey" }}>Welcome to</Text>
-      <Text style={{ fontSize: 40,color:"blue", fontWeight: "bold" }}>Sneaker Zone</Text>
+      <Text style={{ fontSize: 30, color: "" }}>Welcome to</Text>
+      <Text style={{ fontSize: 30,color:"gold", fontWeight: "" }}> Sneaker Zone</Text>
      <View style={{}}>
         <TextInput
           style={{
