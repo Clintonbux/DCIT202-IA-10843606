@@ -4,6 +4,8 @@ import { StyleSheet, Text, View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import Login from "./screens/Login";
+import CartList from "./screens/cart";
+
 import Home from "./screens/Home";
 
 
@@ -19,6 +21,7 @@ export default function App() {
         >
           <MainNavigator.Screen name="Login" component={Login} />
           <MainNavigator.Screen name="Home" component={Home} />
+          <MainNavigator.Screen name="cart" component={CartList} />
          
         </MainNavigator.Navigator>
       </NavigationContainer>
